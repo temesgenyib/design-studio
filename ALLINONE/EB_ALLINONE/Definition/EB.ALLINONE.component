@@ -1,0 +1,36 @@
+component EB.ALLINONE
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+
+private method fraudMgt (
+)
+{
+    jBC: FRAUD.MGT
+}
+
+
+
+private method fraudTxnList (
+)
+{
+    jBC: FRAUD.TXN.LIST
+}
+
+
+
+private method telebirrParamFields (
+)
+{
+    jBC: TELEBIRR.PARAM.FIELDS
+}
+
+
+
+private method fraudTxnListFields (
+)
+{
+    jBC: FRAUD.TXN.LIST.FIELDS
+}
+

@@ -1,0 +1,20 @@
+component EB.TEST
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+
+
+private method ebTestSubroutine (
+)
+{
+    jBC: EB.TEST.SUBROUTINE
+}
+
+
+
+private method ebPrgTest (
+)
+{
+    jBC: EB.PRG.TEST
+}
+
